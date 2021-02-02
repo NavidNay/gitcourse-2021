@@ -5,7 +5,6 @@ public class Main {
     public static void main(String[] args) {
         List<String> movieList = List.of("Daredevil", "Titanic", "Matrix", "Hunger games");
 
-
         String titanic = findByString(movieList, "Titanic");
 
         System.out.println(titanic);
